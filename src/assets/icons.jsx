@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router';
 import React from 'react';
 import styles from './iconsStyle.module.scss';
 

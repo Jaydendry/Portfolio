@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router';
 import { projectData } from '../projectData';
 import Navigation from '../components/Navigation/navigation';
 import HomeHero from '../components/HomePageHero/HomeHero/homehero';

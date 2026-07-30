@@ -1,6 +1,6 @@
 import React from 'react'
 import * as ReactDOMClient from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import App from './App'
 import './styles/master.scss'
 const container = document.querySelector('#root');

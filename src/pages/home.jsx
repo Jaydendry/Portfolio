@@ -31,7 +31,7 @@ export default function Home(props) {
           <>
             Jayden Dry –{" "}
             <span style={{fontFamily:"var(--accent-font)"}}ref={textRef} className="gradientText">Design & Project Manager</span>{" "}
-            <h2 style={{fontSize:"2.8rem"}}>creating experiences that are meant to be lived</h2>
+            <span style={{fontSize:"2.8rem"}}>creating experiences that are meant to be lived</span>
           </>
         } />
         <Approach/>

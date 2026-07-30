@@ -1,8 +1,6 @@
-
-
 export const projectData = [
   {
-  id: 1,
+  id: 0,
   // Core
   title: 'CyberDmapCommandAndControlPlatform',
   role: 'UI/UX Specialist',
@@ -32,21 +30,21 @@ export const projectData = [
   overview: 'Developed during a focused two-week intensive, the Cyber OMAP Co-Pilot represents a comprehensive cyber operations management platform that combines real-time threat monitoring, strategic planning, and AI-assisted decision-making for Defence Cyber Command. The platform integrates multiple operational views including a global threat map, live threat feeds, facility digital twins, and detailed asset tracking - all designed to accelerate both the cyber planning and execution cycles. Built using Data#3\'s AI Prototyping Framework concept, the system provides commanders with holistic base health monitoring, operational timeline tracking, and mission version control in a unified, military-grade interface.',
   processTextList: [
     // Goals
-    "Create an integrated platform that accelerates cyber planning and execution cycles for Defence Cyber Command, combining real-time threat intelligence with strategic operational planning and AI-driven prioritization to enable faster, more informed decision-making across the entire cyber operations lifecycle.",
+    "Create an integrated platform that accelerates cyber planning and execution cycles for Defence Cyber Command, combining real-time threat intelligence with strategic operational planning and AI-driven prioritisation to enable faster, more informed decision-making across the entire cyber operations lifecycle.",
     // Challenge
     "Cyber operations require commanders to synthesize information from dozens of disparate sources - threat feeds, asset statuses, team readiness, facility health, mission timelines - while maintaining operational security and making rapid decisions under pressure. The challenge was consolidating this information overload into a single coherent interface that provides both strategic overview and tactical detail without cognitive overwhelm.",
     // Process
     "The development followed an iterative agile approach over two weeks, beginning with core operational dashboards and progressively layering in specialized views. Each component was designed independently then integrated into the unified command and control interface, with continuous refinement based on operational scenarios from Operation Luzon Strait as the reference case.",
     // Research
-    "Analysis of existing military command systems, cyber operations centers (SOCs), and threat intelligence platforms revealed common pain points: information silos, delayed threat response, lack of integrated planning tools, and poor visibility into team/asset status. This informed the decision to build a holistic platform rather than point solutions.",
+    "Analysis of existing military command systems, cyber operations centres (SOCs), and threat intelligence platforms revealed common pain points: information silos, delayed threat response, lack of integrated planning tools, and poor visibility into team/asset status. This informed the decision to build a holistic platform rather than point solutions.",
     // Solution
-    "A modular dashboard architecture with six core operational views: (1) Global threat map with real-time attack vectors, (2) Location-specific facility health monitoring, (3) Live threat feed with auto-categorization, (4) 3D digital twin for spatial awareness, (5) Comprehensive 28-day operation timeline, and (6) Asset status tracking across malware, tools, infrastructure, and C2 channels. Each view optimized for 1338x880px displays common in operations centers.",
+    "A modular dashboard architecture with six core operational views: (1) Global threat map with real-time attack vectors, (2) Location-specific facility health monitoring, (3) Live threat feed with auto-categorisation, (4) 3D digital twin for spatial awareness, (5) Comprehensive 28-day operation timeline, and (6) Asset status tracking across malware, tools, infrastructure, and C2 channels. Each view optimised for 1338x880px displays common in operations centres.",
     // Design System
     "Established a military-grade cyberpunk aesthetic using a constrained palette: cyber green (#00ff00) for active/operational states, red (#ff0040) for critical threats, orange (#ff8800) for high priority, yellow (#ffaa00) for warnings, and blue (#4a90a4) for informational content - all on dark navy backgrounds (#0a0e1a, #0d1520) to reduce eye strain during extended operations. Courier New monospace typography reinforces the tactical computing aesthetic.",
     // Key Features
-    "Real-time threat monitoring with AI-recommended operation prioritization, 3D interactive facility visualization showing room-level activity, comprehensive asset health tracking (23 assets across malware, tools, C2 infrastructure), complete mission timeline from reconnaissance through cleanup phases, version control for operational planning iterations, and automated threat feed generation with realistic APT group TTPs and IOCs.",
+    "Real-time threat monitoring with AI-recommended operation prioritisation, 3D interactive facility visualisation showing room-level activity, comprehensive asset health tracking (23 assets across malware, tools, and C2 infrastructure), complete mission timeline from reconnaissance through cleanup phases, version control for operational planning iterations, and automated threat feed generation with realistic APT group TTPs and IOCs.",
     // Development Process
-    "Built entirely with vanilla HTML/CSS/JavaScript to ensure rapid prototyping and easy integration with existing Defence systems. No external dependencies beyond CDN-hosted libraries for specific visualizations. Each dashboard component developed as a standalone page for modularity, with consistent design system and navigation patterns. Extensive use of CSS animations and JavaScript for real-time data simulation and interactive elements."
+    "Built entirely with vanilla HTML/CSS/JavaScript to ensure rapid prototyping and easy integration with existing Defence systems. No external dependencies beyond CDN-hosted libraries for specific visualisations. Each dashboard component was developed as a standalone page for modularity, with consistent design system and navigation patterns. Extensive use of CSS animations and JavaScript for real-time data simulation and interactive elements."
   ],
   // Colour palette
   gradientColour: "linear-gradient(180deg, rgba(0,255,0,1) 0%, rgba(26,58,74,1) 100%)",
@@ -60,7 +58,7 @@ export const projectData = [
     "#0F141B", // Border/Accent
   ]
 },{
-    id: 0,
+    id: 1,
     // Core
     title: 'RadiantChiropracticCare',
     role: 'UI/UX Design & Development',
@@ -87,12 +85,12 @@ export const projectData = [
         `image-7-wireframe.webp`,
         `image-8-wireframe.webp`,
       ],
-    overview: 'James Kang & I co-designed and developed a singlepage formatted website for a blossoming chiropractor locally. Our goal was to create an easy-to-use website to open the gate for clients both new & existing to book appointments & learn about her practice. We utilised figma for the initial design experimentation, sticking closely towards the brand identity and using that as the basis for our palette, we moved swiftly onto Vite with React & Tailwind CSS for development and experimentation of functionality and features we could implement, like the google maps API and FAQ dropdowns.',
+    overview: 'James Kang & I co-designed and developed a single-page formatted website for a blossoming chiropractor locally. Our goal was to create an easy-to-use website to open the gate for clients both new & existing to book appointments & learn about her practice. We utilised Figma for the initial design experimentation, sticking closely towards the brand identity and using that as the basis for our palette, we moved swiftly onto Vite with React & Tailwind CSS for development and experimentation of functionality and features we could implement, like the Google Maps API and FAQ dropdowns.',
     processTextList:[
       // Goals
       "Create an intuitive, single-page website that simplifies appointment booking and provides clear information about the practice to both new and existing clients.",
       // Challenge
-      "Being given a short period of time to go from branding to opening doors, creating a full scale website for the start of the next month presented various challenges, especially co-designing and programming on a commercial level whilst liasing with client expectations. We were tasked with creating a site as an entry point into Mikayla's appointment scheduling system with all her client details.",
+      "Being given a short period of time to go from branding to opening doors, creating a full-scale website for the start of the next month presented various challenges, especially co-designing and programming on a commercial level whilst liaising with client expectations. We were tasked with creating a site as an entry point into Mikayla's appointment scheduling system with all her client details.",
       // Process
       "We began by defining project goals, target audience needs, and core site functionality, creating a clear roadmap from concept to launch. Each phase—from research to deployment—was structured to ensure alignment with the client’s vision and user expectations.",
       // Research
@@ -117,7 +115,7 @@ export const projectData = [
       "#050505",
     ]
   },{
-      id: 1,
+      id: 2,
       title: 'Android12',
       role: 'OS Design',
 
@@ -143,7 +141,7 @@ export const projectData = [
         `image-7-wireframe.webp`,
         `image-8-wireframe.webp`,
       ],
-      overview: "While working in cooperation with VHEDIA, I was tasked with the project of creating a custom UI theme design to be developed for their car headunits that came in various designs, models and bases. The theme had to include consideration for custom widgets & personalisation whilst remaining simple enough for all variants of users to be able to troubleshoot either via a provided PDF guide or over the phone from one of the support technicians",
+      overview: "While working in cooperation with VHEDIA, I was tasked with the project of creating a custom UI theme design to be developed for their car headunits that came in various designs, models and bases. The theme had to include consideration for custom widgets & personalisation whilst remaining simple enough for all variants of users to be able to troubleshoot either via a provided PDF guide or over the phone from one of the support technicians.",
       processTextList:[
         // Goals
         "Design a flexible, easy-to-use UI theme compatible across multiple car headunit models, supporting custom widgets and straightforward troubleshooting.",
@@ -173,7 +171,7 @@ export const projectData = [
     },
     
     {
-      id: 2,
+      id: 3,
       title: 'TyreWatcher',
       role: 'App Design & QA Testing',
 
@@ -197,11 +195,11 @@ export const projectData = [
           `image-7-wireframe.webp`,
           `image-8-wireframe.webp`,
       ],
-      overview:"Tyrewatcher. A versatile app designed for phones, tablets and car headunits utilising BTE technology to connect our bluetooth tyre pressure sensors to your device ranging from one sensor up to 24+ for trucks and other large vehicles.",
+      overview:"TyreWatcher. A versatile app designed for phones, tablets and car headunits utilising BLE technology to connect our Bluetooth tyre pressure sensors to your device ranging from one sensor up to 24+ for trucks and other large vehicles.",
       processTextList:[
         "Develop a cross-platform app that reliably connects Bluetooth tyre pressure sensors to devices ranging from personal cars to large trucks, providing clear status and alerts.",
         // Challenge
-        "Tyrewatcher needed to operate seamlessly across phones, tablets, and in-car headunits, supporting anywhere from a single tyre sensor to over 24 for large trucks, all while maintaining reliable Bluetooth connectivity via BTE technology.",
+        "TyreWatcher needed to operate seamlessly across phones, tablets, and in-car headunits, supporting anywhere from a single tyre sensor to over 24 for large trucks, all while maintaining reliable Bluetooth connectivity via BLE technology.",
         // Process
         "We began by mapping out user requirements for different vehicle types, from solo drivers to fleet operators, and assessing how interface complexity should scale with the number of connected sensors.",
         // Research
@@ -226,7 +224,7 @@ export const projectData = [
     },
     
     {
-      id: 3,
+      id: 4,
       title: 'BatteryWatcher',
       role: 'UI/UX App Design',
 
@@ -249,7 +247,7 @@ export const projectData = [
         `image-7-wireframe.webp`,
         `image-8-wireframe.webp`,
       ],
-      overview: "Battery Watcher utilises our BattWatcher product to connect to your car battery and transmits data directly to your phone through a Bluetooth connection to this app. You can view the voltage and health of your battery,the consumption of power per second and run various tests such as the Cranking, Charging and Battery tests to make sure you get the most out of your battery.",      
+      overview: "Battery Watcher utilises our BattWatcher product to connect to your car battery and transmits data directly to your phone through a Bluetooth connection to this app. You can view the voltage and health of your battery, the consumption of power per second and run various tests such as the Cranking, Charging and Battery tests to make sure you get the most out of your battery.",      
       processTextList:[
         "Deliver real-time battery health monitoring and diagnostics with easy-to-understand tests and live data for everyday users and enthusiasts.",
         // Challenge
@@ -276,7 +274,7 @@ export const projectData = [
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: 'Gremio',
       role: 'App Design & Development',
   
@@ -371,4 +369,3 @@ export const projectData = [
   //   ]
   // },
   // ];
-  
